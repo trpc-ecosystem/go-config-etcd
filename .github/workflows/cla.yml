@@ -29,4 +29,3 @@ jobs:
           path-to-document: 'https://github.com/trpc-group/cla-database/blob/main/Tencent-Contributor-License-Agreement.md'
           # branch should not be protected
           branch: 'main'
-          allowlist: bot*
