@@ -7,7 +7,7 @@ require (
 	github.com/stretchr/testify v1.8.1
 	go.etcd.io/etcd/api/v3 v3.5.9
 	go.etcd.io/etcd/client/v3 v3.5.9
-	trpc.group/trpc-go/trpc-go v0.0.0-20230824091938-4699a10e2f35
+	trpc.group/trpc-go/trpc-go v1.0.0
 )
 
 require (
