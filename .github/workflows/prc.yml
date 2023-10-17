@@ -20,7 +20,7 @@ jobs:
       run: go test -v -gcflags=all=-l ./...
   golangci:
     name: lint
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-go@v4
         with:
@@ -34,14 +34,14 @@ jobs:
           skip-cache: true # To prevent occasional failure of this action.
   typos:
     name: typos
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: typos 
       uses: crate-ci/typos@master
   go-apidiff:
     if: github.event_name == 'pull_request'
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
