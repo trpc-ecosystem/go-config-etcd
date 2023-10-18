@@ -3,11 +3,10 @@ English | [中文](README_CN.md)
 # tRPC-Go etcd configuration plugin
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/trpc-ecosystem/go-config-etcd.svg)](https://pkg.go.dev/github.com/trpc-ecosystem/go-config-etcd)
-[![Go Report Card](https://goreportcard.com/badge/github.com/trpc.group/trpc-go/trpc-config-etcd)](https://goreportcard.com/report/github.com/trpc.group/trpc-go/trpc-config-etcd)
-[![LICENSE](https://img.shields.io/github/license/trpc-ecosystem/go-config-etcd.svg?style=flat-square)](https://github.com/trpc-ecosystem/go-config-etcd/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/trpc.group/trpc-go/trpc-config-etcd)](https://goreportcard.com/report/trpc.group/trpc-go/trpc-config-etcd)
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](https://github.com/trpc-ecosystem/go-config-etcd/blob/main/LICENSE)
 [![Releases](https://img.shields.io/github/release/trpc-ecosystem/go-config-etcd.svg?style=flat-square)](https://github.com/trpc-ecosystem/go-config-etcd/releases)
-[![Docs](https://img.shields.io/badge/docs-latest-green)](http://test.trpc.group.woa.com/docs/)
-[![Tests](https://github.com/trpc-ecosystem/go-config-etcd/actions/workflows/prc.yaml/badge.svg)](https://github.com/trpc-ecosystem/go-config-etcd/actions/workflows/prc.yaml)
+[![Tests](https://github.com/trpc-ecosystem/go-config-etcd/actions/workflows/prc.yml/badge.svg)](https://github.com/trpc-ecosystem/go-config-etcd/actions/workflows/prc.yml)
 [![Coverage](https://codecov.io/gh/trpc-ecosystem/go-config-etcd/branch/main/graph/badge.svg)](https://app.codecov.io/gh/trpc-ecosystem/go-config-etcd/tree/main)
 
 The plugin encapsulates [etcd-client](https://github.com/etcd-io/etcd/tree/main/client/v3), facilitating rapid access to configurations in etcd within the tRPC-Go framework.
